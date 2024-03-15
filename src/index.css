@@ -24,6 +24,7 @@ body {
 .twitter_icon {
   color: #1d9bf0;
 }
+
 /* .instagram_icon {
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); 
   background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);   
@@ -51,7 +52,6 @@ body {
   .loginres {
     justify-content: flex-start;
     padding-left: 10px;
-    /* margin-top: 8px; */
   }
   .signupmobile {
     margin-top: 30px;
@@ -97,3 +97,50 @@ body {
   }
 }
 
+.learn_card {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: white;
+  width: 40%;
+  border-radius: 12px;
+  padding: 10px 10px;
+}
+.learn_card_calc {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.learn_card_time {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.learn_card_time_item {
+  width: 70px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  font-size: 12px;
+  border: 1px solid #6d737a;
+  border-radius: 8px;
+}
+
+.confirm_button {
+  background-color: #0b93db;
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 12px;
+}
+
+@media screen and (max-width: 950px) {
+
+}
