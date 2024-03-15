@@ -9,6 +9,7 @@ body {
   font-family: "Public Sans", sans-serif;
   font-size: 16px;
   color: #6d737a;
+  font-weight: 500;
 }
 
 .signupbutton {
@@ -35,3 +36,64 @@ body {
 .linkedin_icon {
   color: #0a66c2;
 }
+
+.learn_background {
+  background-color: #e4f0ff;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1023px) {
+  .loginMobile {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+  .loginres {
+    justify-content: flex-start;
+    padding-left: 10px;
+    /* margin-top: 8px; */
+  }
+  .signupmobile {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 425px) {
+  .footer_link {
+    flex-direction: column;
+  }
+  .footer_details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
+  .footer_nav {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .footer_link {
+    flex-direction: column;
+  }
+  .footer_details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
+  .footer_nav {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 0px;
+  }
+  .footer_content {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+
